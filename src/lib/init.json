@@ -1,0 +1,11 @@
+{
+  "APP_VERSION" : "V1.01.09",
+  "VERDATE" : "20180510",
+//  "APP_DOMAIN" : "https://mms.xa-online.com/data/app/main/",
+//  "APP_DOMAINS" : "https://wx.xa-online.com/public/",
+//  "WX_DOMAIN" : "https://wx.xa-online.com/",
+//  "GW_DOMAIN" : "https://www.xa-online.com/",
+  "IMG_SERVER" : "http://103.27.7.142/kw/app/image/",
+  "IMG_SERVER2" : "http://xabwx.xa-ib.com/uploadfile/app/detail/"
+
+}
