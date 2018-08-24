@@ -4,11 +4,24 @@
 'use strict';
 import React, { Component } from 'react';
 import {
-    StyleSheet,
+    View,
     Text,
-    View
+    Dimensions,
+    ScrollView,
+    TextInput,
+    Image,
+    FlatList,
+    StyleSheet,
+    TouchableOpacity,
+    Button,
+    StatusBar
 } from 'react-native';
-type Props = {};
+import init from '../lib/init.json';
+let _ImgPath = init.IMG_SERVER;
+let windowWidth = Dimensions.get('window').width;
+let windowHeight = Dimensions.get('window').height;
+
+import ScrollableTabView , { DefaultTabBar } from 'react-native-scrollable-tab-view'
 export default class Home extends Component {
     render() {
         return (
