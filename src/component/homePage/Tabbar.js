@@ -1,5 +1,6 @@
 import React,{Component} from 'react'
-import {StyleSheet,
+import {
+    StyleSheet,
     Text,
     View,
     Animated,
@@ -10,9 +11,7 @@ import {StyleSheet,
 } from 'react-native'
 
 const { height, width } = Dimensions.get('window');
-
-
-export default class CustomTabBar extends Component {
+export default class Tabbar extends Component {
     constructor(props: TabBarProps) {
         super(props);
 
@@ -35,9 +34,9 @@ export default class CustomTabBar extends Component {
         return (<Button
             style={{flex: 1}}
             key={name}
-            accessible={true}
-            accessibilityLabel={name}
-            accessibilityTraits='button'
+            accessible={true}  //该元素可以进行访问
+            accessibilityLabel={name} //iOS 与 Android 原生 App 的无障碍功能
+            accessibilityTraits='button' //iOS 与 Android 原生 App 的无障碍功能
             onPress={() => onPressHandler(page)}
         >
             <View style={[styles.tab]}>

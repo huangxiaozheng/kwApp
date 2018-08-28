@@ -14,7 +14,7 @@ import {
     Dimensions,
     Image
 } from 'react-native';
-import init from '../../lib/init.json';
+import init from '../lib/init.json';
 let _ImgPath = init.IMG_SERVER;
 const { height, width } = Dimensions.get('window');
 import EZSwiper from 'react-native-ezswiper';
